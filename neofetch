@@ -1,27 +1,25 @@
 print_info() {
 #info title
 #info underline
-  prin "$(color 12) V A K E R I S "
+  prin "$(color 12)  V A K E R I S "
      #info "$(color 12) User" users
-     prin " $(color 0)  $(color 1)  $(color 2)   $(color 3)  $(color 4)  $(color 5)  $(color 6)  $(color 7)"
-     prin "$(color 12)─────────\n $(color 12)Software \n──────────────────────────────────────────"
-     info " $(color 2)   Disto" distro
-     info " $(color 11)   WM" wm
-     info " $(color 5)  󰏗 Packages" packages
-	   info " $(color 6)   Shell" shell
-	   info " $(color 1)   Terminal" term
-     info " $(color 10)  󰛖 Font" term_font
-     prin " $(color 8)  󰛖 Font " Monoid_Nerd_Font
-     prin "$(color 12)─────────\n $(color 12)Hardware \n──────────────────────────────────────────"
-     info " $(color 14)   CPU" cpu
-     info " $(color 4)   GPU" gpu
-     info " $(color 9)   MEM" memory
-	   info " $(color 3)   Disk" disk
-     prin "$(color 12)─────────\n $(color 12)Uptime \n────────────────────────────────────────────" 
-        info "$(color 9)   " uptime 
+     prin "$(color 1)   $(color 2)    $(color 3)    $(color 4)    $(color 5)    $(color 6)    $(color 7)    $(color 8)   "
+     #prin " $(color 0)  $(color 1)  $(color 2)   $(color 3)  $(color 4)  $(color 5)  $(color 6)  $(color 7)"
+     prin "$(color 12)───────────────────────\n $(color 12)Software \n────────────────────────────"
+     info "$(color 2)   Disto" distro
+     info "$(color 11)  WM" wm
+     info "$(color 5)  󰏗 Packages" packages
+	   info "$(color 6)   Shell" shell
+	   info "$(color 1)   Terminal" term
+     info "$(color 10)  󰛖 Font" term_font
+     prin "$(color 8)  󰛖 Font " Monoid_Nerd_Font
+     prin "$(color 12)───────────────────────\n $(color 12)Hardware \n────────────────────────────"
+     info "$(color 14)  CPU" cpu
+     info "$(color 4)   GPU" gpu
+     info "$(color 9)   MEM" memory
+	   info "$(color 3)   Disk" disk
+     prin "$(color 12)────────────────────────\n $(color 12)Uptime \n─────────────────────────────" 
+     info "$(color 9)   " uptime 
      prin "$(color 12)─────────────────────────────────────────────────────────────"
-  prin "$(color 0)  $(color 1)  $(color 2)   $(color 3)  $(color 4)  $(color 5)  $(color 6)  $(color 7)"
-	#prin "_____________________"
+     prin "$(color 1)   $(color 2)    $(color 3)    $(color 4)    $(color 5)    $(color 6)    $(color 7)    $(color 8)   "
 }
-
-
