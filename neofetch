@@ -13,8 +13,8 @@ print_info() {
      prin "$(color 8)  󰛖 Font " Monoid_Nerd_Font
      prin "$(color 12)───────────────────────\n $(color 12)Hardware \n────────────────────────────"
      info "$(color 14)  CPU" cpu
-     info "$(color 4)   GPU" gpu
-     info "$(color 9)   MEM" memory
+     info "$(color 4)  󰮃 GPU" gpu
+     info "$(color 9)  󰍛 MEM" memory
 	   info "$(color 3)   Disk" disk
      prin "$(color 12)────────────────────────\n $(color 12)Uptime \n─────────────────────────────" 
      info "$(color 9)   " uptime 
