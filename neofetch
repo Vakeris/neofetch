@@ -7,15 +7,16 @@ print_info() {
      info "$(color 2)   Disto" distro
      info "$(color 11)  WM" wm
      info "$(color 5)  󰏗 Packages" packages
-	   info "$(color 6)   Shell" shell
-	   info "$(color 1)   Terminal" term
+     info "$(color 6)   Shell" shell
+     info "$(color 1)   Terminal" term
      info "$(color 10)  󰛖 Font" term_font
      prin "$(color 8)  󰛖 Font " ShureTechMono_Nerd_Font
      prin "$(color 12)───────────────────────\n $(color 12)Hardware \n────────────────────────────"
+     info "$(color 13)   " resolution
      info "$(color 14)  CPU" cpu
      info "$(color 4)  󰮃 GPU" gpu
      info "$(color 9)  󰍛 MEM" memory
-	   info "$(color 3)   Disk" disk
+     info "$(color 3)   Disk" disk
      prin "$(color 12)────────────────────────\n $(color 12)Uptime \n─────────────────────────────" 
      info "$(color 9)   " uptime 
      prin "$(color 12)─────────────────────────────────────────────────────────────"
