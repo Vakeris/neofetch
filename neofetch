@@ -10,7 +10,7 @@ print_info() {
      info "$(color 6)   Shell" shell
      info "$(color 1)   Terminal" term
      info "$(color 10)  󰛖 Font" term_font
-     prin "$(color 8)  󰛖 Font " ShureTechMono_Nerd_Font
+     prin "$(color 8)  󰛖 Font " FiraMono_Nerd_Font
      prin "$(color 12)───────────────────────\n $(color 12)Hardware \n────────────────────────────"
      info "$(color 13)   " resolution
      info "$(color 14)  CPU" cpu
